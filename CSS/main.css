@@ -107,4 +107,18 @@
 
 .right-container {
   flex: 1;
+  color: #fff;
+  background: linear-gradient(-45deg, #e4a693, #5e79f0, #e992cc);
+}
+
+.first-image {
+  padding: 50px 0px 50px 220px;
+}
+
+.second-image {
+  padding: 50px 0px 50px 220px;
+}
+
+.third-image {
+  padding: 50px 0px 50px 220px;
 }

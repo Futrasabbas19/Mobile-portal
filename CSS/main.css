@@ -122,3 +122,57 @@
 .third-image {
   padding: 50px 0px 50px 220px;
 }
+
+#working {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#working h2 {
+  line-height: 50px;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+#working p {
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 25px;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.information {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid rgb(117, 90, 90);
+  background-image: url(../favicon/a.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.data {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid rgb(117, 110, 110);
+  background-image: url(../favicon/b.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.card {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid rgb(117, 95, 95);
+  background-image: url(../favicon/c.jpg);
+  background-size: cover;
+  color: white;
+}

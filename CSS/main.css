@@ -9,17 +9,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px;
+  margin: 50px;
 }
 
 .left {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 40px;
   font-size: 1rem;
   font-weight: 800;
 }
 
-.left:hover{
-    cursor: pointer;
+.left:hover {
+  cursor: pointer;
 }
 
 .mid {
@@ -29,8 +29,8 @@
   font-weight: 300;
 }
 
-.mid:hover{
-    cursor: pointer;
+.mid:hover {
+  cursor: pointer;
 }
 
 .mid li {
@@ -44,12 +44,63 @@
 }
 
 .right li {
-  margin: 0 20px; 
-  transition: all 0.5s; 
+  margin: 0 20px;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
-.right li:hover{
-    background-color: black;
-    color: white;
+.right li:hover {
+  background-color: black;
+  color: white;
+}
+
+#body {
+  width: 90%;
+  height: 100vh;
+  margin: 0 5%;
+  background-color: silver;
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trial {
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+
+.quote {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+.info {
+  font-size: 1rem;
+  font-weight: 200;
+  padding-bottom: 50px;
+}
+
+.btn {
+  width: 150px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px black;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: slateblue;
+}
+
+.right-container {
+  flex: 1;
 }

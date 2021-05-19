@@ -68,6 +68,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(../favicon/wristwatch.png);
+  background-position: 450px 300px;
+  background-repeat: no-repeat;
+  background-size: 50px;
 }
 
 .trial {

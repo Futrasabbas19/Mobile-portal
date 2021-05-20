@@ -1,6 +1,6 @@
 # Mobile-portal
 
-Theses are used in the given **assignment** :-
+These are used in the given **assignment** :-
 
 -Html   
 
